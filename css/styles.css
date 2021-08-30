@@ -6,9 +6,10 @@
 
 body {
   font-size: 16px;
-  background-image: url("../images/pattern-background-mobile.svg");
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-color: hsl(225, 100%, 94%);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% auto;
 }
 
 .container {
@@ -112,5 +113,8 @@ button:hover {
 }
 
 .attribution {
-  margin: 0 auto;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
