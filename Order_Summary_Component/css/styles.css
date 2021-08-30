@@ -110,3 +110,7 @@ button:hover {
 .cancel:hover {
   color: black;
 }
+
+.attribution {
+  margin: 0 auto;
+}
